@@ -1,0 +1,91 @@
+* {
+    font-family: "Roboto", sans-serif !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 25%;
+    padding-right: 5%;
+    height: 1500px;
+}
+
+.main p {
+    text-align: justify;
+}
+
+.navbar ul {
+    width: 20%;
+    list-style-type: none;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar header {
+    text-align: center;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding: 8px 16px;
+}
+
+.navbar li a.active {
+    background-color: lightblue;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: gray;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery img {
+    border: 5px solid black;
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+}
+
+img {
+    align-self: center;
+    border: 5px solid black;
+    width: 450px;
+    height: 350px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    width: 100%;
+    overflow-y: auto;
+    z-index: 999;
+    height: 200px;
+}
+
+footer p {
+    margin: 5px 30px;
+}
