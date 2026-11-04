@@ -2,22 +2,51 @@
     font-family: "Roboto", sans-serif !important;
 }
 
-body {
+body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .main {
     display: flex;
     flex-direction: column;
     width: 70%;
-    padding-left: 25%;
-    padding-right: 5%;
+    margin-left: 20%;
+    padding: 0 4.5%;
     height: 1500px;
+    border: 0.5em solid black;
+}
+
+.main h1 {
+    background-color: white;
+    border: 0.5rem double black;
 }
 
 .main p {
     text-align: justify;
+    background-color: white;
+}
+
+.bgimage {
+    position: fixed;
+    z-index: -999;
+    height: 100%;
+    width: 80%;
+    margin-left: 20%;
+    background-image: url("https://images.unsplash.com/photo-1612805144400-88c7821bf36f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(4px);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border: 0.5rem double black;
 }
 
 .navbar ul {
@@ -73,6 +102,7 @@ img {
 }
 
 h1, h2, h3 {
+    padding: 12px;
     text-align: center;
 }
 
