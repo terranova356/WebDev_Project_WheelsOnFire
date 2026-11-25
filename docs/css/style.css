@@ -135,12 +135,12 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
-    .navbar header {
-        font-size: 10px;
+    .navbar header h1 {
+        font-size: 16px;
     }
 
-    .navbar li a {
-        font-size: 1em;
+    .navbar li {
+        font-size: 13px;
     }
 
     .gallery {
@@ -148,19 +148,19 @@ footer p {
     }
 
     .gallery img {
-        width: 80%;
+        width: 95%;
         height: auto;
         border: 2px solid black;
     }
 
     .gallery img:hover {
-        width: 80%;
-        height: 80vh;
+        width: 90%;
+        height: auto;
     }
 
     img {
         width: 80%;
-        height: auto;
+        height: 80vh;
     }
 }
 
@@ -173,19 +173,23 @@ footer p {
         font-size: 1em;
     }
 
+    .gallery {
+        flex-wrap: wrap;
+    }
+
     .gallery img {
-        width: 60%;
-        height: 30vh;
+        width: 40%;
+        height: 40vh;
         border: 3px solid black;
     }
 
     .gallery img:hover {
-        width: 60%;
-        height: 30vh;
+        width: 40%;
+        height: 40vh;
     }
 
     img {
-        width: 80%;
+        width: 90%;
         height: auto;
     }
 }
